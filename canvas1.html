@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Links is created using Html 
+        </title>
+    </head>
+    <body>
+        <canvas id="mycanvas" width="500" height="500" style="border: solid red">
+
+        </canvas>
+        <script>
+            const canvas=document.getelementbyid("mycanvas");
+            const context=canvas.getContext("2d");
+            context.moveTo(0,0);
+            context.lineTo(500,500);
+            context.stroke();   
+        </script> 
+        
+    </body>
+
+    
+</html>
