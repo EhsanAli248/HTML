@@ -1,1 +1,1 @@
-console.log("Feature 2 branch for Git learning");
+console.log("Feature 2 branch for Git learning and push");
